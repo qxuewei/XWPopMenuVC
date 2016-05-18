@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "XWPopMenuController.h"
+#import "UIImage+XW.h"
 
 @interface ViewController ()
 
@@ -18,6 +20,21 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+//发布按钮点击事件
+- (IBAction)publishClick:(UIButton *)sender {
+    NSLog(@"点击发布按钮->");
+    XWPopMenuController *vc = [[XWPopMenuController alloc]init];
+    
+    //虚化背景
+    UIImage *image = [UIImage imageWithCaputureView:self.view];
+    
+    vc.backImg = image;
+    
+    [self presentViewController:vc animated:NO completion:nil];
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

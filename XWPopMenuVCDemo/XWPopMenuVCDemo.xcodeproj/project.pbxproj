@@ -13,6 +13,13 @@
 		2E8F5C981CEB71400035ABF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8F5C961CEB71400035ABF1 /* Main.storyboard */; };
 		2E8F5C9A1CEB71400035ABF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8F5C991CEB71400035ABF1 /* Assets.xcassets */; };
 		2E8F5C9D1CEB71400035ABF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8F5C9B1CEB71400035ABF1 /* LaunchScreen.storyboard */; };
+		2E8F5CAB1CEB72650035ABF1 /* PublishMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F5CA61CEB72650035ABF1 /* PublishMenuButton.m */; };
+		2E8F5CAC1CEB72650035ABF1 /* UIImage+XW.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F5CA81CEB72650035ABF1 /* UIImage+XW.m */; };
+		2E8F5CAD1CEB72650035ABF1 /* XWPopMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F5CAA1CEB72650035ABF1 /* XWPopMenuController.m */; };
+		2E8F5CB11CEB72C30035ABF1 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F5CB01CEB72C30035ABF1 /* OneViewController.m */; };
+		2E8F5CB41CEB72E10035ABF1 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F5CB31CEB72E10035ABF1 /* TwoViewController.m */; };
+		2E8F5CB71CEB730B0035ABF1 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F5CB61CEB730B0035ABF1 /* ThreeViewController.m */; };
+		2E8F5CBA1CEC01B40035ABF1 /* iconMM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E8F5CB91CEC01B40035ABF1 /* iconMM.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,19 @@
 		2E8F5C991CEB71400035ABF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E8F5C9C1CEB71400035ABF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E8F5C9E1CEB71400035ABF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8F5CA51CEB72650035ABF1 /* PublishMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishMenuButton.h; sourceTree = "<group>"; };
+		2E8F5CA61CEB72650035ABF1 /* PublishMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishMenuButton.m; sourceTree = "<group>"; };
+		2E8F5CA71CEB72650035ABF1 /* UIImage+XW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XW.h"; sourceTree = "<group>"; };
+		2E8F5CA81CEB72650035ABF1 /* UIImage+XW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XW.m"; sourceTree = "<group>"; };
+		2E8F5CA91CEB72650035ABF1 /* XWPopMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWPopMenuController.h; sourceTree = "<group>"; };
+		2E8F5CAA1CEB72650035ABF1 /* XWPopMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWPopMenuController.m; sourceTree = "<group>"; };
+		2E8F5CAF1CEB72C30035ABF1 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		2E8F5CB01CEB72C30035ABF1 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		2E8F5CB21CEB72E10035ABF1 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		2E8F5CB31CEB72E10035ABF1 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		2E8F5CB51CEB730B0035ABF1 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		2E8F5CB61CEB730B0035ABF1 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		2E8F5CB91CEC01B40035ABF1 /* iconMM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iconMM.jpg; path = image/iconMM.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +78,9 @@
 		2E8F5C8C1CEB71400035ABF1 /* XWPopMenuVCDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2E8F5C901CEB71400035ABF1 /* AppDelegate.h */,
-				2E8F5C911CEB71400035ABF1 /* AppDelegate.m */,
-				2E8F5C931CEB71400035ABF1 /* ViewController.h */,
-				2E8F5C941CEB71400035ABF1 /* ViewController.m */,
+				2E8F5CBB1CEC03470035ABF1 /* Other */,
+				2E8F5CA41CEB72650035ABF1 /* XWPopMenu */,
+				2E8F5CAE1CEB72B10035ABF1 /* TextViewController */,
 				2E8F5C961CEB71400035ABF1 /* Main.storyboard */,
 				2E8F5C991CEB71400035ABF1 /* Assets.xcassets */,
 				2E8F5C9B1CEB71400035ABF1 /* LaunchScreen.storyboard */,
@@ -77,6 +96,44 @@
 				2E8F5C8E1CEB71400035ABF1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E8F5CA41CEB72650035ABF1 /* XWPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F5CA51CEB72650035ABF1 /* PublishMenuButton.h */,
+				2E8F5CA61CEB72650035ABF1 /* PublishMenuButton.m */,
+				2E8F5CA71CEB72650035ABF1 /* UIImage+XW.h */,
+				2E8F5CA81CEB72650035ABF1 /* UIImage+XW.m */,
+				2E8F5CA91CEB72650035ABF1 /* XWPopMenuController.h */,
+				2E8F5CAA1CEB72650035ABF1 /* XWPopMenuController.m */,
+			);
+			path = XWPopMenu;
+			sourceTree = "<group>";
+		};
+		2E8F5CAE1CEB72B10035ABF1 /* TextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F5CAF1CEB72C30035ABF1 /* OneViewController.h */,
+				2E8F5CB01CEB72C30035ABF1 /* OneViewController.m */,
+				2E8F5CB21CEB72E10035ABF1 /* TwoViewController.h */,
+				2E8F5CB31CEB72E10035ABF1 /* TwoViewController.m */,
+				2E8F5CB51CEB730B0035ABF1 /* ThreeViewController.h */,
+				2E8F5CB61CEB730B0035ABF1 /* ThreeViewController.m */,
+			);
+			path = TextViewController;
+			sourceTree = "<group>";
+		};
+		2E8F5CBB1CEC03470035ABF1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F5CB91CEC01B40035ABF1 /* iconMM.jpg */,
+				2E8F5C901CEB71400035ABF1 /* AppDelegate.h */,
+				2E8F5C911CEB71400035ABF1 /* AppDelegate.m */,
+				2E8F5C931CEB71400035ABF1 /* ViewController.h */,
+				2E8F5C941CEB71400035ABF1 /* ViewController.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8F5CBA1CEC01B40035ABF1 /* iconMM.jpg in Resources */,
 				2E8F5C9D1CEB71400035ABF1 /* LaunchScreen.storyboard in Resources */,
 				2E8F5C9A1CEB71400035ABF1 /* Assets.xcassets in Resources */,
 				2E8F5C981CEB71400035ABF1 /* Main.storyboard in Resources */,
@@ -149,9 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8F5CAC1CEB72650035ABF1 /* UIImage+XW.m in Sources */,
 				2E8F5C951CEB71400035ABF1 /* ViewController.m in Sources */,
 				2E8F5C921CEB71400035ABF1 /* AppDelegate.m in Sources */,
+				2E8F5CAD1CEB72650035ABF1 /* XWPopMenuController.m in Sources */,
+				2E8F5CAB1CEB72650035ABF1 /* PublishMenuButton.m in Sources */,
+				2E8F5CB11CEB72C30035ABF1 /* OneViewController.m in Sources */,
+				2E8F5CB71CEB730B0035ABF1 /* ThreeViewController.m in Sources */,
 				2E8F5C8F1CEB71400035ABF1 /* main.m in Sources */,
+				2E8F5CB41CEB72E10035ABF1 /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
